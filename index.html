@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TechKaro Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="flex">
+            <img src="images/logo.png" alt="">
+            Tech Karo
+        </div>
+        <div>
+         <img onclick="callBack('en')" src="images/en-flag.png" alt="">
+         <img onclick="callBack('ur')" src="images/ur-flag.png" alt="">
+         <img onclick="callBack('zh')" src="images/zh-flag.png" alt="">
+     </div>
+
+
+ </header>
+ <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav new-nav">
+            <a class="nav-item nav-link active" href="#" id='price'><span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#" id='hire'></a>
+            <a class="nav-item nav-link" href="#" id='enterprice'></a>
+            <a class="nav-item nav-link disabled" href="#" id='prvcy'></a>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="my-style">
+    <h2>A Flower Day</h2>
+    <button type="button" class="btn btn-success">What's new at Teck Karo?</button>
+</div>
+<section>
+   <div class="card" style="width: 30rem;"> 
+      <div class="image"></div>
+      <div class="card-body">
+       <div class="date">
+        <span><i class="fas fa-calendar-alt i"></i><span id=date></span></span>
+        <span><i class="fas fa-user i"></i> by <span class="i">Techkaro Community</span></span>
+    </div>  
+    <hr>
+    <h5 class="card-title"></h5>
+    <p class="card-text"></p>
+</div>
+  <!-- <ul class="list-group list-group-flush">
+    <li class="list-group-item"></li>
+    <li class="list-group-item"></li>
+    <li class="list-group-item"></li>
+</ul> -->
+<div class="card-body">
+</div>
+</div>
+
+
+<div id="margin" class="card bg-light mb-3" style="max-width: 20rem;">
+    <button id="btn" type="button" class="btn btn-success">New at Teck Karo Learn More ></button>
+
+    <div class="card-body">
+        <h5 id="title" class="card-title"></h5>
+        <p id="decription" class="card-text"></p>
+    </div>
+</div>
+
+
+
+</section>
+
+</body>
+
+</html>

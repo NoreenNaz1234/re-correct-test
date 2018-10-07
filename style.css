@@ -1,0 +1,53 @@
+body, body * {
+	font-family: 'Montserrat', sans-serif;
+	color: #494949;
+}
+
+body {
+	background-color: #40a63d1a;
+
+}
+
+
+header{
+	background-color: white;
+	padding: 0px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} 
+.flex{
+	color: #ca1a3d;
+	font-weight: bold;
+	font-size: 22px;
+	letter-spacing: 1px;
+	
+}
+
+.navbar{
+	background-color: #5a5656 !important;
+}
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+a{
+	color: white !important;
+	display: flex !important;
+	justify-content: flex-end !important;
+	
+}
+.my-style{
+	margin: auto;
+	padding-left: 70px; 
+}
+.i {
+	font-weight: bold;
+	color: green;
+	padding: 5px;
+}
+
+/* Write all your CSS here! */
